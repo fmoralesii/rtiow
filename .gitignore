@@ -2,7 +2,7 @@
 bin/*
 .vs/*
 rtiow/Debug/*
-
+.DS_Store
 
 # Allow
 !bin/.placeholder
