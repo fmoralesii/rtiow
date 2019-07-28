@@ -1,5 +1,8 @@
 # Ignore
 bin/*
+.vs/*
+rtiow/Debug/*
+
 
 # Allow
 !bin/.placeholder
