@@ -37,12 +37,12 @@ public:
 
     // Member function prototypes
     inline void make_unit_vector();
-    inline vec3& operator+=(const vec3 &v2);
+    vec3& operator+=(const vec3 &v2);
     inline vec3& operator-=(const vec3 &v2);
     inline vec3& operator*=(const vec3 &v2);
     inline vec3& operator/=(const vec3 &v2);
     inline vec3& operator*=(const float t);
-    inline vec3& operator/=(const float t);
+    vec3& operator/=(const float t);
 
     // Member variables
     float e[3];
